@@ -7,6 +7,16 @@ description: Resources on academic writing, econometrics, coding and teaching in
 
 Some core parts of academia are not explicitly taught; academics are expected to pick them up "along the way", but many of us lack the resources and opportunities to do so. For other core parts of our work, such as econometrics, there are excellent free resources online that are not yet common knowledge. This page collects resources that have helped me or that I think could be helpful. Please [email me](mailto:christoph.kronenberg@uni-due.de) if a link is broken, credit is missing or wrong, or, most of all, if I am missing the best resource you know.
 
+<nav class="toc" aria-label="Sections">
+  <a href="#academic-writing">Writing</a>
+  <a href="#academic-citizenship">Academic citizenship</a>
+  <a href="#econometrics">Econometrics</a>
+  <a href="#coding">Coding</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#similar-lists-by-others">Similar lists</a>
+  <a href="#podcasts">Podcasts</a>
+</nav>
+
 ## Academic writing
 
 - [The Introduction Formula](https://blogs.ubc.ca/khead/research/research-advice/formula) by [Keith Head](https://blogs.ubc.ca/khead/)
