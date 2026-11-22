@@ -10,7 +10,7 @@
 - Fields: health economics, labor economics, public economics, economics of mental health
 - Methods: causal inference (difference-in-differences, instrumental variables, regression discontinuity) with administrative register data
 - Languages: German, English, Dutch
-- Service: founder and organizer of the Economics of Mental Health Workshop (since 2018); co-founder of the Applied Econ Collective (2026); editorial board member of Administration and Policy in Mental Health and Mental Health Services Research (since 2025)
+- Service: founder and organizer of the Economics of Mental Health Workshop (since 2018); convener of the Essen Health Economics Seminar; co-organizer of the Ruhr Gender Economics Day (2027); co-founder of the Applied Econ Collective (2026); editorial board member of Administration and Policy in Mental Health and Mental Health Services Research (since 2025)
 - Contact: christoph.kronenberg@uni-due.de
 
 ## Pages
