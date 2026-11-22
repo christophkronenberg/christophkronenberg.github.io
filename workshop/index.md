@@ -2,7 +2,7 @@
 layout: default
 title: Economics of Mental Health Workshop
 permalink: /workshop/
-description: The Economics of Mental Health Workshop, founded in Essen in 2018 and held annually since.
+description: The Economics of Mental Health Workshop, an annual workshop for economists and researchers studying mental health, founded by Christoph Kronenberg in Essen in 2018.
 ---
 
 I founded the Economics of Mental Health Workshop in Essen in 2018 and have organized it every year since. It brings together economists and researchers from neighboring fields who study mental health.

@@ -2,7 +2,7 @@
 layout: default
 title: Teaching
 permalink: /teaching/
-description: Courses taught by Christoph Kronenberg at the University of Duisburg-Essen and the University of York.
+description: Courses taught by Christoph Kronenberg in public finance, taxation and health economics at the University of Duisburg-Essen, and earlier at the University of York.
 ---
 
 ## University of Duisburg-Essen
