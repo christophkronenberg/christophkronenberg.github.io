@@ -1,0 +1,28 @@
+title: Christoph Kronenberg
+description: Public, health and labor economist at the University of Duisburg-Essen.
+author: Christoph Kronenberg
+email: christoph.kronenberg@uni-due.de
+url: "https://christophkronenberg.github.io"
+baseurl: ""
+
+nav:
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: Workshop
+    url: /workshop/
+  - title: Resources
+    url: /resources/
+  - title: CV
+    url: /files/CV_Kronenberg.pdf
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
