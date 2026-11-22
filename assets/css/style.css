@@ -61,9 +61,22 @@ dl.news { display: grid; grid-template-columns: 5rem 1fr; gap: 0.5rem 1rem; marg
 dl.news dt { color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 0.9rem; padding-top: 0.15rem; }
 dl.news dd { margin: 0; }
 
+/* Abstracts */
+details { margin-top: 0.3rem; }
+details summary { display: block; cursor: pointer; color: var(--link); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 0.88rem; }
+details summary::-webkit-details-marker { display: none; }
+details summary::before { content: "\25B8\00A0"; }
+details[open] summary::before { content: "\25BE\00A0"; }
+details p { margin: 0.4rem 0 0.2rem; font-size: 0.95rem; }
+
+/* Resources table of contents */
+.toc { display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem; margin: 1.25rem 0 0; padding: 0.75rem 1rem; background: #f5f7fa; border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 0.9rem; }
+html { scroll-padding-top: 1rem; }
+
 /* Workshop archive */
-.edition { margin-bottom: 2rem; }
-.edition img { width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; margin-top: 0.5rem; }
+.edition { margin-bottom: 1.5rem; display: flow-root; }
+.edition .flyer { float: right; width: 12rem; margin: 0.25rem 0 0.75rem 1.25rem; }
+.edition .flyer img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--rule); margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
@@ -76,4 +89,5 @@ dl.news dd { margin: 0; }
   .site-nav { gap: 0.25rem 0.9rem; font-size: 0.9rem; }
   dl.news { grid-template-columns: 1fr; gap: 0 0; }
   dl.news dd { margin-bottom: 0.75rem; }
+  .edition .flyer { width: 8rem; margin-left: 0.9rem; }
 }
