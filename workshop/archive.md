@@ -12,8 +12,11 @@ description: Past editions of the Economics of Mental Health Workshop, 2018 to 2
 <section class="edition" id="emhw-{{ e.year }}">
   <h2>{{ e.year }} · {{ e.place }}</h2>
   {% assign flyer_path = '/assets/img/emhw/emhw-' | append: e.year | append: '.jpg' %}
+  {% assign thumb_path = '/assets/img/emhw/thumbs/emhw-' | append: e.year | append: '.jpg' %}
   {% assign flyer = site.static_files | where: "path", flyer_path | first %}
-  {% if flyer %}<a class="flyer" href="{{ flyer_path | relative_url }}" title="Open the call for papers"><img src="{{ flyer_path | relative_url }}" alt="Call for papers, Economics of Mental Health Workshop {{ e.year }}" loading="lazy"></a>{% endif %}
+  {% assign thumb = site.static_files | where: "path", thumb_path | first %}
+  {% if thumb %}{% assign img_path = thumb_path %}{% else %}{% assign img_path = flyer_path %}{% endif %}
+  {% if flyer %}<a class="flyer" href="{{ flyer_path | relative_url }}" title="Open the call for papers"><img src="{{ img_path | relative_url }}" alt="Call for papers, Economics of Mental Health Workshop {{ e.year }}" width="480" height="270" loading="lazy"></a>{% endif %}
   {% if e.host %}<p class="meta">Host: {{ e.host }}</p>{% endif %}
   <p><strong>Keynotes:</strong> {{ e.keynotes }}</p>
   {% if e.note %}<p>{{ e.note }}</p>{% endif %}

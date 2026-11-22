@@ -1,0 +1,44 @@
+# Christoph Kronenberg
+
+> Christoph Kronenberg, PhD, is Interim Professor of Public Economics at the University of Duisburg-Essen (Essen, Germany) and affiliated with CINCH, the Health Economics Research Center. He is a public, health and labor economist. Using causal inference methods and administrative data, he studies the supply of mental health care, prescribing, and the effects of education reforms and occupational licensing.
+
+## Profile
+
+- Current position: Interim Professor of Public Economics, University of Duisburg-Essen (since 2026)
+- Previous positions: PostDoc, CINCH, University of Duisburg-Essen (2016 to 2026); Managing Director, Leibniz Science Campus Ruhr, RWI (2021 to 2023); Research Fellow, Centre for Health Economics, University of York (2015 to 2016)
+- Education: PhD in Economics, Centre for Health Economics, University of York (2018); MSc Health Economics, University of York (2012); BSc International Economics and Business Economics, Erasmus University Rotterdam (2011)
+- Fields: health economics, labor economics, public economics, economics of mental health
+- Methods: causal inference (difference-in-differences, instrumental variables, regression discontinuity) with administrative register data
+- Languages: German, English, Dutch
+- Service: founder and organizer of the Economics of Mental Health Workshop (since 2018); co-founder of the Applied Econ Collective (2026); editorial board member of Administration and Policy in Mental Health and Mental Health Services Research (since 2025)
+- Contact: christoph.kronenberg@uni-due.de
+
+## Pages
+
+- [Home](https://christophkronenberg.github.io/): short biography, news, media and contact
+- [Research](https://christophkronenberg.github.io/research/): publications and working papers with abstracts and DOIs
+- [Teaching](https://christophkronenberg.github.io/teaching/): courses at the University of Duisburg-Essen and the University of York
+- [Economics of Mental Health Workshop](https://christophkronenberg.github.io/workshop/): format and call for papers
+- [Past workshops](https://christophkronenberg.github.io/workshop/archive/): hosts and keynote speakers, 2018 to 2026
+- [Funding for early-career researchers](https://christophkronenberg.github.io/funding/): the Applied Econ Collective and a list of fellowships and small grants
+- [Resources](https://christophkronenberg.github.io/resources/): curated resources on writing, econometrics, coding and teaching
+- [CV (PDF)](https://christophkronenberg.github.io/files/CV_Kronenberg.pdf)
+
+## Publications
+
+- The Sources of Researcher Variation in Economics. Huntington-Klein, N., Pörtner, C. C., et al. (150 authors, including Kronenberg, C.). Journal of Economic Literature, accepted. https://doi.org/10.2139/ssrn.5152665
+- Remote Schooling during the Pandemic: A Double Burden for Working Parents in Sweden? Kronenberg, C., Gerdtham, U.-G. and Karlsson, M. (2026). Journal of Labor Economics 44(S1). https://doi.org/10.1086/742925
+- Mental health economics—Social determinants and care‐use. Golberstein, E. and Kronenberg, C. (2022). Health Economics. https://doi.org/10.1002/hec.4608
+- New(spaper) evidence of a reduction in suicide mentions during the 19th century US gold rush. Kronenberg, C. (2021). Health Economics. https://doi.org/10.1002/hec.4403
+- A New Measure of 19th Century US Suicides. Kronenberg, C. (2021). Social Indicators Research. https://doi.org/10.1007/s11205-021-02674-y
+- How did the 2008-11 financial crisis affect work-related common mental distress? Evidence from 393 workplaces in Great Britain. Kronenberg, C. and Böhnke, J. R. (2019). Economics & Human Biology. https://doi.org/10.1016/j.ehb.2019.02.008
+- Do care plans and annual reviews of physical health influence unplanned hospital utilisation for people with serious mental illness? Analysis of linked longitudinal primary and secondary healthcare records in England. Ride, J., et al., including Kronenberg, C. (2018). BMJ Open. https://doi.org/10.1136/bmjopen-2018-023135
+- The impact of the UK National Minimum Wage on mental health. Kronenberg, C., Jacobs, R. and Zucchelli, E. (2017). SSM - Population Health. https://doi.org/10.1016/j.ssmph.2017.08.007
+- Identifying primary care quality indicators for people with serious mental illness: a systematic review. Kronenberg, C., et al. (2017). British Journal of General Practice. https://doi.org/10.3399/bjgp17X691721
+- Catastrophic healthcare expenditure – Drivers and protection: The Portuguese case. Kronenberg, C. and Barros, P. P. (2014). Health Policy. https://doi.org/10.1016/j.healthpol.2013.10.001
+
+## Other profiles
+
+- Google Scholar: https://scholar.google.com/citations?user=t7EKsPUAAAAJ
+- ORCID: https://orcid.org/0000-0001-5495-7949
+- University of Duisburg-Essen, Chair of Public Economics: https://pubecon.wiwi.uni-due.de/team/christoph-kronenberg-7101/
