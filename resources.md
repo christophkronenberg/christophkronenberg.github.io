@@ -96,7 +96,7 @@ Free resources on econometric methods with a focus on causal inference.
 - [Library of Statistical Techniques (LOST)](https://lost-stats.github.io), by Nick Huntington-Klein
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home) by Ani Katchova
 - [Recent Advances in Applied Micro Methods](https://christinecai.github.io/PublicGoods/applied_micro_methods.pdf), a reference list by [Christine Cai](https://christinecai.github.io)
-- [10 Things to Know](https://egap.org/list-methods-guides) guides on many causal inference topics by EGAP
+- [10 Things to Know](https://methods.egap.org/guides.html) guides on many causal inference topics by EGAP
 
 ### Tools
 
