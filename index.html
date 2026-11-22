@@ -2,14 +2,16 @@
 layout: default
 show_title: false
 ---
-<section class="intro">
-  <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="Portrait of Christoph Kronenberg" width="480" height="600">
+{% assign portrait = site.static_files | where: "path", "/assets/img/portrait.jpg" | first %}
+{% assign cv = site.static_files | where: "path", "/files/CV_Kronenberg.pdf" | first %}
+<section class="intro{% unless portrait %} no-photo{% endunless %}">
+  {% if portrait %}<img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="Portrait of Christoph Kronenberg" width="480" height="600">{% endif %}
   <div>
     <h1>Christoph Kronenberg</h1>
     <p class="position">Interim Professor of Public Economics, University of Duisburg-Essen</p>
     <p>I am a public, health, and labor economist. Using causal inference methods and administrative data, I study the supply of mental health care, prescribing, and the effects of education reforms and occupational licensing. I founded and organize the <a href="{{ '/workshop/' | relative_url }}">Economics of Mental Health Workshop</a>.</p>
     <ul class="links">
-      <li><a href="{{ '/files/CV_Kronenberg.pdf' | relative_url }}">CV (PDF)</a></li>
+      {% if cv %}<li><a href="{{ '/files/CV_Kronenberg.pdf' | relative_url }}">CV (PDF)</a></li>{% endif %}
       <li><a href="https://scholar.google.com/citations?user=t7EKsPUAAAAJ">Google Scholar</a></li>
       <li><a href="https://orcid.org/0000-0001-5495-7949">ORCID</a></li>
       <li><a href="mailto:christoph.kronenberg@uni-due.de">christoph.kronenberg@uni-due.de</a></li>
