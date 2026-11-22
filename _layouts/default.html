@@ -15,14 +15,15 @@
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body{% if page.wide %} class="wide"{% endif %}>
   <header class="site-header">
     <div class="wrap">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Main">
         {% for item in site.nav %}
         {% if item.file %}{% assign target = site.static_files | where: "path", item.url | first %}{% unless target %}{% continue %}{% endunless %}{% endif %}
-        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% assign prefix = page.url | slice: 0, item.url.size %}
+        <a href="{{ item.url | relative_url }}"{% if prefix == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
         {% endfor %}
       </nav>
     </div>

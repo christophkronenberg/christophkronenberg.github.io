@@ -5,7 +5,9 @@ permalink: /workshop/
 description: The Economics of Mental Health Workshop, founded in Essen in 2018 and held annually since.
 ---
 
-I founded the Economics of Mental Health Workshop in Essen in 2018 and have organized it every year since. It brings together economists and researchers from neighboring fields who study mental health. See the <a href="{{ '/workshop/archive/' | relative_url }}">archive</a> for past editions, hosts and keynote speakers.
+I founded the Economics of Mental Health Workshop in Essen in 2018 and have organized it every year since. It brings together economists and researchers from neighboring fields who study mental health.
+
+<p class="subnav"><a href="{{ '/workshop/archive/' | relative_url }}">Past workshops: hosts, keynote speakers and calls for papers, 2018 to 2026 &rarr;</a></p>
 
 ## 2027
 

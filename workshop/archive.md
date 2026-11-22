@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Workshop archive
+title: Past workshops
 permalink: /workshop/archive/
 description: Past editions of the Economics of Mental Health Workshop, 2018 to 2026.
 ---
+
+<p class="subnav"><a href="{{ '/workshop/' | relative_url }}">&larr; Economics of Mental Health Workshop</a></p>
 
 {% assign editions = site.data.emhw %}
 {% for e in editions %}
