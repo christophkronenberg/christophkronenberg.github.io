@@ -54,7 +54,7 @@ Ride, J., Kasteridis, P., Gutacker, N., <strong>Kronenberg, C.</strong>, Doran, 
 
 <ul class="papers">
 <li><span class="title"><a href="https://doi.org/10.17185/duepublico/84929">Supply Constraints and Negative Selection : Evidence from Mental Healthcare Markets</a></span><br>
-<strong>Kronenberg, C.</strong> and Miele, K. CINCH Working Paper. Submitted.
+<strong>Kronenberg, C.</strong> and Miele, K. R. CINCH Working Paper. Submitted.
 <details><summary>Abstract</summary><p>Despite universal healthcare coverage and clinical guidelines recommending psychotherapy after psychiatric hospitalization, only 26% of German patients receive it, and paradoxically, the sickest patients are least likely to get treatment. Using administrative claims data, we investigate whether increasing psychotherapy supply addresses this misallocation. For identification, we exploit quasi-random variation from Germany's therapist license allocation system. A one standard deviation higher supply raises therapy uptake by 10%, modestly reduces waiting times, and lowers patient search frictions, but does not alter the composition of therapy recipients. These findings challenge the assumption that healthcare capacity constraints affect all patients equally.</p></details></li>
 
 <li><span class="title">Things fall apart? Missions, institutions, and interpersonal trust – A reproducibility and replicability assessment of Okoye (2021)</span><br>
