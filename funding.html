@@ -1,0 +1,130 @@
+---
+layout: default
+title: Funding for early-career researchers
+permalink: /funding/
+wide: true
+description: The Applied Econ Collective and a searchable list of fellowships, scholarships and small grants for PhD students and early-career researchers.
+---
+
+<h2>Applied Econ Collective</h2>
+<p>Together with Hans Sievertsen and Yajna Govind, I run the <a href="https://opencollective.com/applied-econ-collective">Applied Econ Collective</a>. The collective is funded entirely through donations and reimburses early-career applied economists for research costs between €10 and €200, for example journal submission fees, workshop attendance, software and datasets. It does not provide open-ended microgrants or stipends.</p>
+<p>Applicants need an expense tied to a specific research project. The collective funds requests that meet three criteria: the cost is directly related to applied economics research, alternative funding is not readily available, and the applicant has not received funding from the collective in the last 12 months. Applicants from any country are eligible. Requests and donations go through the <a href="https://opencollective.com/applied-econ-collective">collective's Open Collective page</a>, which also shows all donations and payouts and whether requests are currently open.</p>
+
+<h2>Funders for PhD students and early-career researchers</h2>
+<p>The collective covers small costs. For larger funding, the list below covers fellowships, scholarships and starting grants, and small grants for conference travel, research stays and data costs, by country. Funder names link to the programme page.</p>
+<ul class="notes">
+  <li>Status as of 28 October 2026. Most schemes run annually, so check the funder's page for current deadlines and rules.</li>
+  <li>Amounts in $, € or £ are shown as published. All other currencies are converted to € at ECB reference rates of 27 October 2026 (1 € = 11.0795 SEK = 7.4742 DKK = 10.3885 NOK = 0.9239 CHF = 1.5636 CAD = 1.5856 AUD = 175.97 JPY), rounded.</li>
+  <li>Almost all schemes extend limits on time since the PhD for parental leave and other documented career breaks.</li>
+  <li>† marks figures I could only find in secondary sources (university research offices, grant databases) and not on the funder's own page. Treat them as indicative.</li>
+  <li>University-specific funds are not listed. Check what your own institution and any planned host institution offer.</li>
+</ul>
+
+<div class="filters" id="funder-filters" hidden>
+  <label>Search <input type="search" id="f-search" placeholder="e.g. travel, Germany, postdoc"></label>
+  <label>Type
+    <select id="f-type">
+      <option value="">All</option>
+      <option>Fellowship / grant</option>
+      <option>Small grant</option>
+    </select>
+  </label>
+  <label>Country
+    <select id="f-country">
+      <option value="">All</option>
+      {% assign countries = site.data.funders | map: "country" | uniq | sort %}
+      {% for c in countries %}<option>{{ c }}</option>{% endfor %}
+    </select>
+  </label>
+  <span class="meta" id="f-count" aria-live="polite"></span>
+</div>
+
+<div class="table-wrap">
+<table class="funders" id="funders">
+  <thead>
+    <tr>
+      <th scope="col" data-key="funder">Funder / programme</th>
+      <th scope="col" data-key="country">Country</th>
+      <th scope="col" data-key="type">Type</th>
+      <th scope="col" data-key="eligibility">Eligibility</th>
+      <th scope="col" data-key="funded">What is funded</th>
+      <th scope="col" data-key="amount">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for f in site.data.funders %}
+    <tr data-index="{{ forloop.index0 }}">
+      <td data-label="Funder / programme"><a href="{{ f.url }}">{{ f.funder | escape }}</a></td>
+      <td data-label="Country">{{ f.country | escape }}</td>
+      <td data-label="Type">{{ f.type }}</td>
+      <td data-label="Eligibility">{{ f.eligibility | escape }}</td>
+      <td data-label="What is funded">{{ f.funded | escape }}</td>
+      <td data-label="Amount">{{ f.amount | escape }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+<script>
+(function () {
+  var table = document.getElementById('funders');
+  var tbody = table.tBodies[0];
+  var rows = Array.prototype.slice.call(tbody.rows);
+  var search = document.getElementById('f-search');
+  var type = document.getElementById('f-type');
+  var country = document.getElementById('f-country');
+  var count = document.getElementById('f-count');
+  var headers = table.tHead.rows[0].cells;
+  var sortCol = -1, sortDir = 1;
+
+  document.getElementById('funder-filters').hidden = false;
+
+  function norm(s) { return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+  rows.forEach(function (r) { r._text = norm(r.textContent); });
+
+  function filter() {
+    var terms = norm(search.value).split(/\s+/).filter(Boolean);
+    var shown = 0;
+    rows.forEach(function (r) {
+      var ok = terms.every(function (t) { return r._text.indexOf(t) !== -1; })
+        && (!type.value || r.cells[2].textContent === type.value)
+        && (!country.value || r.cells[1].textContent === country.value);
+      r.hidden = !ok;
+      if (ok) shown++;
+    });
+    count.textContent = shown + ' of ' + rows.length + ' shown';
+  }
+
+  function sortBy(col) {
+    if (sortCol === col) { sortDir = -sortDir; } else { sortCol = col; sortDir = 1; }
+    var sorted = rows.slice().sort(function (a, b) {
+      var x = a.cells[col].textContent.trim(), y = b.cells[col].textContent.trim();
+      var c = x.localeCompare(y, 'en', { sensitivity: 'base', numeric: true, ignorePunctuation: true });
+      return c !== 0 ? c * sortDir : a.dataset.index - b.dataset.index;
+    });
+    sorted.forEach(function (r) { tbody.appendChild(r); });
+    for (var i = 0; i < headers.length; i++) {
+      headers[i].setAttribute('aria-sort', i === col ? (sortDir === 1 ? 'ascending' : 'descending') : 'none');
+    }
+  }
+
+  for (var i = 0; i < headers.length; i++) {
+    (function (i) {
+      var h = headers[i];
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = h.textContent;
+      h.textContent = '';
+      h.appendChild(btn);
+      h.setAttribute('aria-sort', 'none');
+      btn.addEventListener('click', function () { sortBy(i); });
+    })(i);
+  }
+
+  search.addEventListener('input', filter);
+  type.addEventListener('change', filter);
+  country.addEventListener('change', filter);
+  filter();
+})();
+</script>
