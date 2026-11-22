@@ -21,6 +21,7 @@
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Main">
         {% for item in site.nav %}
+        {% if item.file %}{% assign target = site.static_files | where: "path", item.url | first %}{% unless target %}{% continue %}{% endunless %}{% endif %}
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
         {% endfor %}
       </nav>

@@ -12,10 +12,13 @@ nav:
     url: /teaching/
   - title: Workshop
     url: /workshop/
+  - title: Past workshops
+    url: /workshop/archive/
   - title: Resources
     url: /resources/
   - title: CV
     url: /files/CV_Kronenberg.pdf
+    file: true
 
 markdown: kramdown
 kramdown:
