@@ -1,5 +1,5 @@
 title: Christoph Kronenberg
-description: Public, health and labor economist at the University of Duisburg-Essen.
+description: Christoph Kronenberg, Interim Professor of Public Economics at the University of Duisburg-Essen. Health, labor and public economics; mental health care; causal inference.
 author: Christoph Kronenberg
 email: christoph.kronenberg@uni-due.de
 url: "https://christophkronenberg.github.io"
@@ -19,6 +19,9 @@ nav:
   - title: CV
     url: /files/CV_Kronenberg.pdf
     file: true
+
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
 kramdown:
