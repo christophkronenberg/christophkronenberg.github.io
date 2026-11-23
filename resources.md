@@ -24,9 +24,11 @@ Some core parts of academia are not explicitly taught; academics are expected to
 - [The "Middle Bits" Formula](https://marcfbellemare.com/wordpress/12797) and [the Conclusion Formula](https://marcfbellemare.com/wordpress/12060) by [Marc F. Bellemare](https://marcfbellemare.com/wordpress/)
 - [How to Write Applied Papers in Economics](https://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf) by Marc F. Bellemare
 - [The Ten Most Important Rules of Writing Your Job Market Paper](https://www.economics.harvard.edu/resource/tenruleswritingpdf) by Claudia Goldin and Lawrence Katz; applies to any paper
+- [Writing Tips for Crafting Effective Economics Research Papers](https://www.iza.org/publications/dp/16276) by Plamen Nikolov (IZA Discussion Paper, 2023), which collects advice from many economists
 - [Free guides](https://www.plainenglish.co.uk/free-guides) by the Plain English Campaign
 - [Creating a reverse outline](https://writing.wisc.edu/handbook/processandstructure/reverseoutlines/) by the Writing Center of the University of Wisconsin-Madison
 - [Paper writing gone Hollywood](https://doi.org/10.1126/science.355.6320.102) by Jeffrey J. McDonnell, *Science* (2017)
+- [Generative AI for Economic Research: LLMs Learn to Collaborate and Reason](https://www.nber.org/papers/w33198) by Anton Korinek, a regularly updated guide to using large language models in research
 
 ### Literature search beyond Google Scholar
 
@@ -48,6 +50,7 @@ Some core parts of academia are not explicitly taught; academics are expected to
 - A curated list of [economics conferences](https://docs.google.com/spreadsheets/d/1MNeXLKiwQA4MK3cZ3Hr1WWXZTReh3rKQU_yfTKnu-hg/edit#gid=1595158205) by [Anne M. Burton](https://annemburton.com) and [Barton Willage](http://bartonwillage.com)
 - The [Applied Econ Collective](https://opencollective.com/applied-econ-collective), which supports early-career applied economists with journal submission fees, conference fees, software licenses and similar costs
 - [Summary of the 2020 panel Q&A on publishing](https://drive.google.com/file/d/1FLZ40nxJNKGX0LWPQh_zqfd_oAiDKEYO/view?usp=sharing) at the Economics of Mental Health Workshop
+- [Mentoring reading materials](https://www.aeaweb.org/about-aea/committees/cswep/programs/resources/readings) and [professional development opportunities](https://www.aeaweb.org/about-aea/committees/cswep/initiatives-and-resources/prof-dev-resources/junior-mid-events), including the Adopt a Paper feedback program for junior scholars, by the AEA Committee on the Status of Women in the Economics Profession (CSWEP)
 
 ## Econometrics
 
@@ -63,6 +66,7 @@ Free resources on econometric methods with a focus on causal inference.
 - [Causal Inference: Measuring the Effect of X on y](http://pped.org/cimexy.pdf) by [Austin Nichols](http://pped.org/)
 - [Econometrics for Business Analytics](https://bookdown.org/cuborican/RE_STAT/) by [Jose M. Fernandez](https://louisville.edu/directory/jose_fernandez)
 - [Data Science for Economists](https://github.com/uo-ec607/lectures) by [Grant McDermott](https://grantmcdermott.com)
+- [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) by Victor Chernozhukov, Christian Hansen, Nathan Kallus, Martin Spindler and Vasilis Syrgkanis
 
 ### Courses
 
@@ -82,6 +86,7 @@ Free resources on econometric methods with a focus on causal inference.
 
 - [Difference-in-Differences Designs: A Practitioner's Guide](https://arxiv.org/abs/2503.13323) by [Andrew Baker](https://andrewcbaker.com), Brantly Callaway, Scott Cunningham, Andrew Goodman-Bacon and Pedro H. C. Sant'Anna
 - [What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature](https://arxiv.org/abs/2201.01194) by Jonathan Roth, Pedro H. C. Sant'Anna, Alyssa Bilinski and John Poe
+- [DiD resources](https://jonathandroth.github.io/did-resources/), including slides from a one-day course on recent DiD methods, by [Jonathan Roth](https://jonathandroth.github.io)
 - [Illustration of the two-way fixed effects estimator decomposition](https://hhsievertsen.shinyapps.io/twowayfedecomp/) by [Hans H. Sievertsen](https://www.hhsievertsen.net/)
 - [Problems with two-way fixed-effects event-study regressions](https://psantanna.com/posts/twfe) by [Pedro H. C. Sant'Anna](https://psantanna.com) and [Brantly Callaway](https://bcallaway11.github.io)
 - [Revisiting the difference-in-differences parallel trends assumption, part I: pre-trend testing](https://blogs.worldbank.org/en/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend) by David McKenzie
@@ -92,6 +97,9 @@ Free resources on econometric methods with a focus on causal inference.
 
 - Cheat sheets for [RCTs](https://github.com/sm-miller/RCT/blob/main/RCT.pdf), [RDDs](https://github.com/sm-miller/RDD/blob/main/RDD.pdf) and [DiD](https://github.com/sm-miller/DiffNDiff/blob/main/DiffNDiff%20%281%29.pdf) by [Sarah Miller](https://public.websites.umich.edu/~mille/index.html)
 - [A Practical Introduction to Regression Discontinuity Designs: Foundations](https://arxiv.org/abs/1911.09511) by Matias D. Cattaneo, Nicolas Idrobo and Rocio Titiunik
+- [A Practical Introduction to Regression Discontinuity Designs: Extensions](https://arxiv.org/abs/2301.08958) by the same authors: local randomization, fuzzy, discrete-score and multi-dimensional RD designs
+- [A Practical Guide to Shift-Share Instruments](https://www.aeaweb.org/articles?id=10.1257/jep.20231370) by Kirill Borusyak, Peter Hull and Xavier Jaravel, *Journal of Economic Perspectives* (2025)
+- [Examiner and Judge Designs in Economics: A Practitioner's Guide](https://www.iza.org/publications/dp/17636) by Eric Chyn, Brigham R. Frandsen and Emily Leslie (IZA Discussion Paper; published in the *Journal of Economic Literature*)
 - [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/) by the [SKY Community](https://chabefer.github.io/SKY/tutoSTCI.html)
 - [Library of Statistical Techniques (LOST)](https://lost-stats.github.io), by Nick Huntington-Klein
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home) by Ani Katchova
@@ -110,11 +118,14 @@ Free resources on coding, mostly in Stata and R.
 
 - [Code and Data for the Social Sciences](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) by [Matthew Gentzkow](https://gentzkow.people.stanford.edu) and [Jesse M. Shapiro](https://shapiro.scholars.harvard.edu)
 - [A concise guide to reproducible research using secondary data](https://katblankart.github.io/DataLiteracy/index.html) by [Katharina Blankart](https://katblankart.github.io/), Maryna Ivets, Eva Goetjes and [Kai Miele](https://sites.google.com/view/kmiele): from hypothesis to reporting with secondary health care data, with checklists and a replication in Stata
+- [Template README for replication packages](https://social-science-data-editors.github.io/template_README/) by the Social Science Data Editors, the standard that economics journals such as those of the AEA recommend
 - [Stata Coding Guide](https://julianreif.com/guide/) by [Julian Reif](https://julianreif.com/)
 - [Replication of *Mostly Harmless Econometrics*](https://github.com/vikjam/mostly-harmless-replication) in Stata, R, Python and Julia
 - [Course materials](http://bryangraham.github.io/econometrics/courses/) by Bryan S. Graham, with a focus on network data
 - [An overview of multiple hypothesis testing commands in Stata](https://blogs.worldbank.org/en/impactevaluations/overview-multiple-hypothesis-testing-commands-stata) by David McKenzie
 - [Stata cheat sheets](http://geocenter.github.io/StataTraining/)
+- [R for Data Science (2e)](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (MIT): the shell, Git, scripting and other tools that economics programs rarely teach
 - [Transitioning from Stata to R](https://stata2r.github.io/index.html) by Nick Huntington-Klein and coauthors
 - Faster Stata: [gtools](https://gtools.readthedocs.io/en/latest/usage/gtools/index.html) by [Mauricio Caceres](https://mcaceresb.github.io/) and [reghdfe](https://github.com/sergiocorreia/reghdfe) for multiple fixed effects by [Sergio Correia](http://scorreia.com)
 - [R Markdown workshop materials](https://resulumit.com/blog/rmd-workshop/) by [Resul Umit](https://resulumit.com)
@@ -125,6 +136,7 @@ Free resources on coding, mostly in Stata and R.
 ## Teaching
 
 - [The Econ Tool Box](https://www.theecontoolbox.com) by Julien Picault, a great resource for anyone teaching economics
+- [The Economy 2.0](https://books.core-econ.org/) by the CORE Econ team, an open-access introductory textbook in microeconomics and macroeconomics
 - [Introduction to R](https://hhsievertsen.shinyapps.io/r_introduction/) for undergraduates by Hans H. Sievertsen
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org) by Christoph Hanck, Martin Arnold, Alexander Gerber and Martin Schmelzer
 - [Videos](http://nickchk.com/videos.html) on micro, Stata, R and causality by Nick Huntington-Klein
@@ -149,3 +161,4 @@ In no particular order. Send me your favorite economics podcast.
 - [Probable Causation](https://www.probablecausation.com): law, economics and crime, by [Jennifer Doleac](http://jenniferdoleac.com/)
 - [Hidden Curriculum](https://creators.spotify.com/pod/profile/hidden-curriculum/): everything you wanted to learn in (econ) graduate school, by [Sebastian Tello-Trillo](https://sebastiantellotrillo.com/) and [Alex Hollingsworth](https://hollina.github.io/)
 - [EconTalk](https://www.econtalk.org): a weekly economics podcast by [Russ Roberts](https://russroberts.info/)
+- [VoxTalks Economics](https://podcasts.apple.com/podcast/id1413723815): new research and policy ideas from economists, by CEPR, presented by Tim Phillips
