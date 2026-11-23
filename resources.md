@@ -55,7 +55,7 @@ Free resources on econometric methods with a focus on causal inference.
 
 ### Textbooks
 
-- [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net) by [Nick Huntington-Klein](http://nickchk.com)
+- [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net) by [Nick Huntington-Klein](https://www.nickchk.com/)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com) by [Scott Cunningham](http://scunning.com/)
 - [Causal Inference: What If](https://miguelhernan.org/whatifbook) by [Miguel Hernán](https://miguelhernan.org) and James Robins
 - [Econometrics](https://users.ssc.wisc.edu/~behansen/econometrics/) by [Bruce E. Hansen](https://users.ssc.wisc.edu/~behansen/)
@@ -82,7 +82,7 @@ Free resources on econometric methods with a focus on causal inference.
 
 - [Difference-in-Differences Designs: A Practitioner's Guide](https://arxiv.org/abs/2503.13323) by [Andrew Baker](https://andrewcbaker.com), Brantly Callaway, Scott Cunningham, Andrew Goodman-Bacon and Pedro H. C. Sant'Anna
 - [What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature](https://arxiv.org/abs/2201.01194) by Jonathan Roth, Pedro H. C. Sant'Anna, Alyssa Bilinski and John Poe
-- [Illustration of the two-way fixed effects estimator decomposition](https://hhsievertsen.shinyapps.io/twowayfedecomp/) by [Hans H. Sievertsen](https://hhsievertsen.net)
+- [Illustration of the two-way fixed effects estimator decomposition](https://hhsievertsen.shinyapps.io/twowayfedecomp/) by [Hans H. Sievertsen](https://www.hhsievertsen.net/)
 - [Problems with two-way fixed-effects event-study regressions](https://psantanna.com/posts/twfe) by [Pedro H. C. Sant'Anna](https://psantanna.com) and [Brantly Callaway](https://bcallaway11.github.io)
 - [Revisiting the difference-in-differences parallel trends assumption, part I: pre-trend testing](https://blogs.worldbank.org/en/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend) by David McKenzie
 - [More DiD resources](https://x.com/causalinf/status/1253831303453171715) (post on X) by Scott Cunningham
@@ -109,6 +109,7 @@ Free resources on econometric methods with a focus on causal inference.
 Free resources on coding, mostly in Stata and R.
 
 - [Code and Data for the Social Sciences](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) by [Matthew Gentzkow](https://gentzkow.people.stanford.edu) and [Jesse M. Shapiro](https://shapiro.scholars.harvard.edu)
+- [A concise guide to reproducible research using secondary data](https://katblankart.github.io/DataLiteracy/index.html) by Katharina Blankart, Maryna Ivets, Eva Goetjes and [Kai Miele](https://sites.google.com/view/kmiele): from hypothesis to reporting with secondary health care data, with checklists and a replication in Stata
 - [Stata Coding Guide](https://julianreif.com/guide/) by [Julian Reif](https://julianreif.com/)
 - [Replication of *Mostly Harmless Econometrics*](https://github.com/vikjam/mostly-harmless-replication) in Stata, R, Python and Julia
 - [Course materials](http://bryangraham.github.io/econometrics/courses/) by Bryan S. Graham, with a focus on network data
