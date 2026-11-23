@@ -5,6 +5,8 @@ permalink: /teaching/
 description: Courses taught by Christoph Kronenberg in public finance, taxation and health economics at the University of Duisburg-Essen, and earlier at the University of York.
 ---
 
+I teach economics as a tool for answering policy questions. Students should leave my courses able to reason about a tax, a regulation or a social insurance rule with economic theory, and then confront that reasoning with data. I teach theory and evidence together and treat causal inference as a skill every student can learn, whatever their mathematical background. In lectures I use peer instruction: students answer a conceptual question, discuss it in pairs and answer again, which shows me misconceptions while there is still time to address them. Students get low-stakes feedback on problem sets before any graded exam. Many students at the University of Duisburg-Essen are the first in their family to attend university, so I draw on examples from their own region and lives, and I show the researchers behind the papers we discuss, because role models shape who chooses to study economics. I teach in German and English at bachelor's and master's level.
+
 ## University of Duisburg-Essen
 
 <ul class="papers">
@@ -15,6 +17,23 @@ description: Courses taught by Christoph Kronenberg in public finance, taxation 
 <li><span class="title">Einführung in die Gesundheitsökonomik</span> (Introduction to Health Economics)<br><span class="meta">Lecturer, 2017&ndash;2021</span></li>
 <li><span class="title">Bachelor and Master theses</span><br><span class="meta">Supervisor, 2017&ndash;present</span></li>
 </ul>
+
+## Student evaluations
+
+<p>Overall course rating in the university's standard course evaluation, on a scale from 1 (very good) to 5 (very poor).</p>
+
+<div class="table-wrap">
+<table class="evals">
+  <thead>
+    <tr><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Mean rating</th><th scope="col">Responses</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Social Security and Taxation II</td><td>Summer 2026</td><td>1.42</td><td>12</td></tr>
+    <tr><td>Social Security and Taxation I</td><td>Winter 2025/26</td><td>1.60</td><td>5</td></tr>
+    <tr><td>Einführung in die Gesundheitsökonomik - Theorie und Politik</td><td>Winter 2025/26</td><td>1.63</td><td>16</td></tr>
+  </tbody>
+</table>
+</div>
 
 ## University of York
 
