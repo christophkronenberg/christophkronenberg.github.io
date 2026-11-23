@@ -32,6 +32,7 @@ main a:hover, main a:focus { text-decoration-thickness: 2px; }
 main .papers .title a, main .links a, main .toc a { text-decoration: none; }
 main .papers .title a:hover, main .papers .title a:focus, main .links a:hover, main .links a:focus, main .toc a:hover, main .toc a:focus { text-decoration: underline; }
 a:focus-visible, summary:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
 h1, h2, h3, .site-title, .site-nav, .site-footer, .meta {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
