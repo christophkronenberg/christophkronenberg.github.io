@@ -5,6 +5,13 @@ permalink: /research/
 description: Publications and working papers by Christoph Kronenberg.
 ---
 
+My research sits at the intersection of public, health and labor economics. I study how the regulation, provision and financing of public services shape individual outcomes, using quasi-experimental designs and administrative microdata. My work falls into four strands:
+
+- **Social insurance, mental health and access:** how supply constraints in publicly financed mental health care affect who receives treatment.
+- **Education and human capital:** how schooling policy affects parental labor supply and time preferences.
+- **Regulation of publicly financed markets:** how licensing and entry regulation shape the supply of services, from German outpatient care to US occupational licensing.
+- **Research transparency:** how researchers' decisions drive differences in empirical results, studied through many-analysts and replication projects.
+
 <p class="meta">Full list on <a href="https://scholar.google.com/citations?user=t7EKsPUAAAAJ">Google Scholar</a>.</p>
 
 ## Publications

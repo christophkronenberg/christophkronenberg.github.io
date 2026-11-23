@@ -103,6 +103,13 @@ table.funders td:nth-child(2), table.funders td:nth-child(3) { white-space: nowr
 table.funders td:nth-child(4), table.funders td:nth-child(5) { min-width: 15rem; }
 table.funders td:nth-child(6) { min-width: 11rem; }
 
+/* Teaching evaluations */
+table.evals { border-collapse: collapse; font-size: 0.95rem; margin: 0.5rem 0 1rem; }
+table.evals th, table.evals td { text-align: left; padding: 0.4rem 1rem 0.4rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+table.evals th { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 600; color: var(--accent); }
+table.evals td:nth-child(3), table.evals td:nth-child(4), table.evals th:nth-child(3), table.evals th:nth-child(4) { text-align: right; }
+table.evals td:nth-child(2) { white-space: nowrap; }
+
 /* Footer */
 .site-footer { border-top: 1px solid var(--rule); margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; padding-top: 1rem; padding-bottom: 2rem; }
