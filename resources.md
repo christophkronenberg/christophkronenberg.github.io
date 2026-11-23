@@ -109,7 +109,7 @@ Free resources on econometric methods with a focus on causal inference.
 Free resources on coding, mostly in Stata and R.
 
 - [Code and Data for the Social Sciences](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) by [Matthew Gentzkow](https://gentzkow.people.stanford.edu) and [Jesse M. Shapiro](https://shapiro.scholars.harvard.edu)
-- [A concise guide to reproducible research using secondary data](https://katblankart.github.io/DataLiteracy/index.html) by Katharina Blankart, Maryna Ivets, Eva Goetjes and [Kai Miele](https://sites.google.com/view/kmiele): from hypothesis to reporting with secondary health care data, with checklists and a replication in Stata
+- [A concise guide to reproducible research using secondary data](https://katblankart.github.io/DataLiteracy/index.html) by [Katharina Blankart](https://katblankart.github.io/), Maryna Ivets, Eva Goetjes and [Kai Miele](https://sites.google.com/view/kmiele): from hypothesis to reporting with secondary health care data, with checklists and a replication in Stata
 - [Stata Coding Guide](https://julianreif.com/guide/) by [Julian Reif](https://julianreif.com/)
 - [Replication of *Mostly Harmless Econometrics*](https://github.com/vikjam/mostly-harmless-replication) in Stata, R, Python and Julia
 - [Course materials](http://bryangraham.github.io/econometrics/courses/) by Bryan S. Graham, with a focus on network data
