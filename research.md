@@ -68,9 +68,9 @@ Ride, J., Kasteridis, P., Gutacker, N., <strong>Kronenberg, C.</strong>, Doran, 
 <strong>Kronenberg, C.</strong>, Neubauer, F., Bensch, G. and Rose, J.</li>
 
 <li><span class="title">Human capital and time preferences</span><br>
-Dragone, D., <strong>Kronenberg, C.</strong> and Zucchelli, E.</li>
+<a href="https://sites.google.com/site/davidedragone/">Dragone, D.</a>, <strong>Kronenberg, C.</strong> and Zucchelli, E.</li>
 
 <li><span class="title">Where size matters: Evidence for a height premium in labour supply, but not in health</span><br>
-Katz, A. and <strong>Kronenberg, C.</strong></li>
+<a href="https://www.aharon-katz.com/">Katz, A.</a> and <strong>Kronenberg, C.</strong></li>
 </ul>
 <p class="meta">Titles of work in progress are preliminary.</p>
